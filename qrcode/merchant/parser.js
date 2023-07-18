@@ -66,7 +66,7 @@ const parseAdditionalDataFieldTemplate = (tags) => {
                     additionalDataFieldTemplate.addPaymentSystemSpecific(tag.id, t);
                 }
                 else if (tag.id >= Constants.ADDITIONAL_FIELD.AdditionalIDRFUforEMVCoRangeStart && tag.id <= Constants.ADDITIONAL_FIELD.AdditionalIDRFUforEMVCoRangeEnd) {
-                    additionalDataFieldTemplate.addRFUForEMVCo(tag.id, tag.value);
+                    additionalDataFieldTemplate.addRFUforEMVCo(tag.id, tag.value);
                 }
         }
         return additionalDataFieldTemplate;
@@ -88,7 +88,7 @@ const parseMerchantInformationLanguageTemplate = (tags) => {
                 break;
             default:
                 if (tag.id >= Constants.MERCHANT_INFORMATION.MerchantInformationIDRFUforEMVCoRangeStart && tag.id <= Constants.MERCHANT_INFORMATION.MerchantInformationIDRFUforEMVCoRangeEnd) {
-                    merchantInformationLanguageTemplate.addRFUForEMVCo(tag.id, tag.value);
+                    merchantInformationLanguageTemplate.addRFUforEMVCo(tag.id, tag.value);
                 }
         }
         return merchantInformationLanguageTemplate;
