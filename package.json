@@ -1,18 +1,18 @@
 {
-  "name": "steplix-emv-qrcps",
+  "name": "aalarcon-viabariloche-emv-qrcps",
   "version": "0.0.8",
   "deprecated": false,
   "description": "Project to generate QRCode in EMV specification formmat.",
   "main": "index.js",
-  "homepage": "https://github.com/steplix/emv-qrcps#readme",
+  "homepage": "https://github.com/aalarcon-viabariloche/emv-qrcps#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steplix/emv-qrcps.git"
+    "url": "git+https://github.com/aalarcon-viabariloche/emv-qrcps.git"
   },
   "author": "Steplix Developers",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/steplix/emv-qrcps/issues"
+    "url": "https://github.com/aalarcon-viabariloche/emv-qrcps/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
